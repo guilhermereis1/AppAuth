@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   get '/auth_logged_in', to: 'sessions#is_logged_in?'
   
   resources :users, only: [:create, :show, :index]
+
+  root to: "admin/dashboard#index"
 end
