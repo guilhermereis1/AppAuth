@@ -304,7 +304,7 @@ ActiveAdmin.setup do |config|
   # By default, the footer shows the current Active Admin version. You can
   # override the content of the footer here.
   #
-  config.footer = 'Desenvolvido e Hospedado por Guilherme Reis'
+  config.footer = 'Desenvolvido e Hospedado por Guilherme Reis - https://github.com/guilhermereis1'
 
   # == Sorting
   #
